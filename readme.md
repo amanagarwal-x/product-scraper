@@ -4,8 +4,8 @@ To run locally:
 3. Run the app using `cd scraper && uvicorn runner:app --host 0.0.0.0 --port 8000`
 
 To run using Docker:
-1. docker pull ragehelix/fastapi-scraper:v1
-2. docker run -p 8000:8000 ragehelix/fastapi-scraper:v1
+1. `docker pull ragehelix/fastapi-scraper:v1`
+2. `docker run -p 8000:8000 ragehelix/fastapi-scraper:v1`
 
 To build and run using Docker:
 1. Clone this repository
